@@ -17,8 +17,8 @@ export default function Home() {
                     <h1 className="text-[40px] font-bold pb-[25px]">Plans & Pricing</h1>
                     <a className="text-[#939d90] text-[20px] ">  
                         Unlock the full potential of our AI image upscaler with flexible pricing plans designed to fit your needs.
-                        Whether you're a casual user, a professional photographer, or a business in need of high-quality image 
-                        upscaling, we've got you covered.
+                        Whether you&apos;re a casual user, a professional photographer, or a business in need of high-quality image 
+                        upscaling, we&apos;ve got you covered.
                     </a>
                 </div>
                 
@@ -115,7 +115,7 @@ export default function Home() {
                 <div className="text-center w-[80%]  ">
                     <h1 className="text-[40px] font-bold pb-[25px]">Pay-As-You-Go</h1>
                     <a className="text-[#939d90] text-[20px] ">  
-                        You don't want to commit to a subscription plan? No problem! WIth our Pay-As-You-Go option, <br/>
+                        You don&apos;t want to commit to a subscription plan? No problem! WIth our Pay-As-You-Go option, <br/>
                         you have the freedom to upscale images without any long-term commitments.
                     </a>
                 </div>
