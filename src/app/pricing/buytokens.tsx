@@ -6,11 +6,12 @@ export default function Buytokens() {
     const [Value, SetValue] = useState<number>(0);
     let pom;
     const Price = () =>{
-        pom=document.getElementById("amount")?.value;
-        pom=pom*0.12;
-        pom=pom.toFixed(2);
-        pom=parseFloat(pom);
-        SetValue(pom);
+        const inputElement = document.getElementById("amount") as HTMLInputElement | null;
+        if (inputElement) {
+            const inputValue = parseFloat(inputElement.value) || 0; 
+            const calculatedValue = parseFloat((inputValue * 0.12).toFixed(2)); 
+            SetValue(calculatedValue); 
+        }
     }
   return (
 

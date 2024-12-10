@@ -16,7 +16,7 @@ export default function Home() {
       const fileList = event.target.files;
       if (fileList && fileList.length > 0) {
         const selectedFile = fileList[0];
-        setImageName(selectedFile.name); // Set the name of the selected file
+        setImageName(selectedFile.name); 
         const reader = new FileReader();
         reader.onload = () => {
           setSelectedImage(reader.result as string);
